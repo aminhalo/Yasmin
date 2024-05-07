@@ -1,0 +1,197 @@
+
+/*Creado por Yasmin El Halouani*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+
+@media (max-width: 768px){
+
+nav {
+	padding: 25px 35px 25px 35px;
+}
+
+#menuHamburguesa>ul{
+	display: block;
+}
+
+#iconoMenu {
+	padding: 15px;
+	display: block;
+}
+
+#iconocerrarMenu{
+	display: block;
+	
+}
+
+nav ul{
+	display: none;
+}
+
+
+/*VESPERTINE*/
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+#Vespertine {
+    width: 100vw;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 35px 25px 35px;
+}
+
+/*COLUMNA 1*/
+
+#columna1 {
+    width: 40%;
+    margin: 0px 0px 0px 0px;
+}
+
+#columna1 > h1 {
+    font-size: 2.125rem;
+    font-weight: 800;
+    margin: 0px 0px 5px 0px;
+}
+
+#columna1 > h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 0px 0px 5px 0px;
+}
+
+#columna1 > h3 {
+    display: none;
+    margin: 20px 0px 5px 0px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#columna1 > p {
+    display: none;
+    padding: 5px 0px 15px 0px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#tracklist > h3 {
+    padding: 20px 0px 5px 0px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#tracks {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 90%;
+    overflow: auto;
+}
+
+.songsname {
+    width: 100vw;
+    padding: 15px 10px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.songsname:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/*COLUMNA 2*/
+
+#columna2 {
+    width: 60%;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontalline1 {
+    border-top: 3px solid white;
+    margin: 20px 0px 20px 0px;
+}
+
+.horizontalline1a {
+    border-top: 3px solid white;
+    margin: 0px 0px 20px 0px;
+}
+
+#vinilo {
+    display: flex;
+    justify-content: center;
+}
+
+#vinilo > img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/*FOOTER*/
+
+.footerContainer {
+	font-size: 1rem;
+}
+
+    .footerNav ul{
+        flex-direction: column;
+
+    } 
+
+    .footerNav ul li a{
+    font-size: 1rem;
+
+
+}
+
+    .footerNav{
+    	margin: 10px 0;
+}
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 10px;
+        margin: 10px;
+ 
+    }
+
+    .footerBottom {
+    	flex-direction: column;
+
+    }
+
+    .footerBottom p{
+    font-size: 1rem;
+}
+
+
+
+
+

@@ -1,0 +1,542 @@
+
+/*Creado por Yasmin El Halouani*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+/*	max-width: 1920px;*/
+}
+
+
+body {
+	
+}
+
+h3 {
+	font-size: 2.125rem;
+	font-weight: 600;
+	margin: 50px 0px;
+}
+
+p {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+
+
+/*NAV*/
+
+/*MENU HAMBURGUESA*/
+
+
+#iconoMenu {
+	width: 60px;
+	display: none;
+	cursor: pointer;
+	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(51deg) brightness(103%) contrast(101%);
+}
+
+#iconocerrarMenu{
+	width: 35px;
+	height: auto;
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 45px;
+	cursor: pointer;
+	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(51deg) brightness(103%) contrast(101%);
+}
+
+#menuHamburguesa{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	top: 0;
+	right: -100%;
+	position: fixed;
+	z-index: 1;
+	transition-property: right;
+	transition-duration: 0.5s;
+	padding: 40px 45px 40px 40px;
+}
+
+
+#menuHamburguesa>ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+	justify-content: left;
+/*	align-items: center;*/
+/*	padding-top: 30px;*/
+}
+
+#menuHamburguesa>ul>li{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 30px 0px 0px 0px;
+}
+
+#menuHamburguesa>ul>li>a{
+	text-align: right;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: black;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#menuHamburguesa>ul>li>a:hover {
+	color: #41BEE6;
+}
+
+nav	{
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	position: sticky;
+	top: 0;
+	padding: 25px 140px 25px 140px;
+	font-family: "Inter";
+	z-index: 1;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	margin-left: 40px;
+}
+
+nav a{
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: black;
+	letter-spacing: 0px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+nav ul li a:hover {
+	color: #41BEE6;
+}
+
+#logo{
+	width: 35px;
+	height: auto;
+}
+
+
+
+
+/*ARTISTS*/
+
+
+.artists {
+	padding: 25px 140px; 
+}
+
+.artists > p {
+	margin: 20px 0px;
+}
+
+h3 {
+	font-size: 2.125rem;
+	font-weight: 600;
+	margin: 10px 0px 20px 0px;
+}
+
+
+p {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+
+/*GALLERY*/
+
+.row {
+	display: flex;
+/*	background-color: black;*/
+
+}
+
+.left {
+	width: 50%;
+/*	background-color: deeppink;*/
+	height: 100vh;
+	overflow: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+}
+
+.middle {
+	width: 30%;
+/*	background-color: hotpink;*/
+	height: 100vh;
+	overflow: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+} 
+
+.right {
+	width: 20%;
+/*	background-color: lightpink;*/
+	height: 100vh;
+	overflow: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+} 
+
+
+/*FIRST ROW*/
+
+#container1 {
+	width: 100%;
+	height: 648px;
+	background-image: url("../media/GALERIA/Polly paulusma.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container2 {
+	 width: 100%;
+	height: 648px;
+	background-image: url("../media/GALERIA/SHHE.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container3 {
+	 width: 100%;
+	height: 648px;
+	background-image: url("../media/GALERIA/Bjork2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*MIDDLE ROW*/
+
+#container4 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Avawaves.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container5 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Henrik Lindstrand.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container6 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Galya bisengalieva.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container7 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Astrid Williamson.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container8 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Ólöf Arnalds.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container9 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Badbreeding.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container10 {
+	width: 100%;
+	height: 324px;
+	background-image: url("../media/GALERIA/Kathryn Williams.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*RIGHT ROW*/
+
+#container11 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Lomond Campbell.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container12 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Marry Waterson.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container13 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Poppy Ackroyd.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container14 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/ARKane.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container15 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/The Sugarcubes.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container16 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Sarasara.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container17 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Cody Chesnutt.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container18 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/2 Bit Pie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container19 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Asgeir.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container20 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Crass.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container21 {
+	width: 100%;
+	height: 216px;
+	background-image: url("../media/GALERIA/Sarah Walk.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*OVERLAY*/
+
+
+.container {
+	position: relative;
+ 	width: 100%;
+	height: 750px;
+}
+
+.overlay {
+/*	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;*/
+	width: 100%;
+	height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #41BEE6;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text1 {
+	width: 100%;
+	height: auto;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    cursor: pointer;
+}
+
+
+.text2b {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.text2c {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #111010;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.logofooter {
+	display: flex;
+	justify-content: center;
+}
+
+.logofooter img {
+	width: 6%;
+	height: auto;
+	transition: 0.5s;
+	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(51deg) brightness(103%) contrast(101%);
+}
+
+.logofooter img:hover {
+	filter: invert(61%) sepia(97%) saturate(464%) hue-rotate(161deg) brightness(97%) contrast(85%);
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 0px 30px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: white;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: #41BEE6;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+   color: #41BEE6;
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerBottom p{
+    color: white;
+}

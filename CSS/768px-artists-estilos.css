@@ -1,0 +1,183 @@
+
+/*Creado por Yasmin El Halouani*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+
+@media (max-width: 768px){
+
+nav {
+	padding: 25px 35px 25px 35px;
+}
+
+#menuHamburguesa>ul{
+	display: block;
+}
+
+#iconoMenu {
+	padding: 15px;
+	display: block;
+}
+
+#iconocerrarMenu{
+	display: block;
+	
+}
+
+nav ul{
+	display: none;
+}
+
+.artists {
+    padding: 25px 140px; 
+}
+
+.artists > p {
+    margin: 10px 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+/*ARTISTS*/
+
+.text2b {
+  font-size: 1.5rem;
+  top: 60%;
+}
+
+
+.text2c {
+  font-size: 1.5rem;
+  top: 60%;
+}
+
+
+.artists {
+    padding: 10px 35px; 
+}
+
+.left {
+    display: none;
+    width: 50%;
+}
+
+.middle {
+    width: 50%;
+} 
+
+.right {
+    width: 50%;
+} 
+
+#container7 {
+    height: 324px;
+}
+
+#container8 {
+    height: 324px;
+}
+
+#container9 {
+    height: 324px;
+}
+
+#container11 {
+    height: 324px;
+}
+
+#container12 {
+    height: 324px;
+}
+
+#container13 {
+    height: 324px;
+}
+
+#container14 {
+    height: 324px;
+}
+
+#container15 {
+   height: 324px;
+}
+
+#container16 {
+   height: 324px;
+}
+
+#container17 {
+   height: 324px;
+}
+
+#container18 {
+   height: 324px;
+}
+
+#container19 {
+    height: 324px;
+}
+
+#container20 {
+    height: 324px;
+}
+
+#container21 {
+    height: 324px;
+}
+
+
+/*FOOTER*/
+
+.footerContainer {
+    font-size: 1rem;
+}
+
+    .footerNav ul{
+        flex-direction: column;
+
+    } 
+
+    .footerNav ul li a{
+    font-size: 1rem;
+
+
+}
+
+    .footerNav{
+        margin: 10px 0;
+}
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 10px;
+        margin: 10px;
+ 
+    }
+
+    .footerBottom {
+        flex-direction: column;
+
+    }
+
+    .footerBottom p{
+    font-size: 1rem;
+}

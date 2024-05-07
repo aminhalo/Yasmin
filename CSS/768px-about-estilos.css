@@ -1,0 +1,364 @@
+
+/*Creado por Yasmin El Halouani*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+
+@media (max-width: 768px){
+
+nav {
+	padding: 25px 35px 25px 35px;
+}
+
+#menuHamburguesa>ul{
+	display: block;
+}
+
+#iconoMenu {
+	padding: 15px;
+	display: block;
+}
+
+#iconocerrarMenu{
+	display: block;
+	
+}
+
+nav ul{
+	display: none;
+}
+
+
+
+
+/*ABOUT*/
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    padding: 20px 0px 20px 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+#section0 {
+    width: ;
+    height: 100vh;
+    margin: 25px 35px; 
+}
+
+/*SECTION 1*/
+
+#section1 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+#overlay1{
+    display: none;
+}
+
+#overlay2{
+    background-color: #111010;
+    z-index: -1;
+    width: 50%;
+    height: 70%;
+    float: left;
+    position: absolute;
+    left: 0rem;
+}
+
+#overlay3{
+    background-color: #111010;
+    z-index: -1;
+    width: 50%;
+    height: 40%;
+    float: center;
+    position: absolute;
+    right: 0rem;
+}
+
+
+#columna1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: visible;
+    margin: 0px 0px 25px 0px;
+
+}
+
+#columna1 > p{
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+#columna2 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+/*    background-color: #111010;*/
+    color: black;
+    margin: 0px 0px 25px 0px;
+}
+
+
+.horizontalline1 {
+    display: none;
+}
+
+.teamcolumn0 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.teamcolumnas{
+    display: flex;
+} 
+
+.teamcolumn1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 0px 0px;
+}
+
+
+.teamcolumn2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+/*  margin: 0px 40px 0px 0px;*/
+}
+
+.teamcolumn1 > p{
+/*  line-height: 3;*/
+}
+
+.teamcolumn2 > p {
+    padding: 0px 0px 0px 0px;
+/*  line-height: 3;*/
+}
+
+.textoteam {
+    margin: 0px 0px 20px 0px;
+}
+
+.bold {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/*SECTION 2*/
+
+#section2{
+    width: 100vw;
+    height: 100vh;  
+    display: flex;  
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;/*
+    background-color: lightskyblue;*/
+    margin: 25px 35px 25px 35px;  
+}
+
+
+#contactus {
+    width: 50%;
+    height: auto;
+    color: white;
+}
+
+
+#contactus > h2 {
+    width: 70%;
+    margin: 0px 0px 20px 0px;
+}
+
+
+#contactus > p {
+    width: 40%;
+}
+
+#contactus > .outline {
+    margin: 0px 0px 20px 0px;
+}
+
+
+/*FORMULARIO*/
+
+#formulariopage {
+    width: 50%;
+}
+
+#formulario {
+    width: 82%;
+/*  margin: 0px 50px 50px 50px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input {
+    width: 300px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-width: 1px;
+    font-size: 1rem;
+
+}
+
+#inputwriteus {
+
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 10px 0px 5px 0px;
+    padding: 10px 10px 90px 10px;
+}
+
+
+.remember-forgot {
+     width: 300px;
+    height: auto;
+    display: flex;
+    margin: 5px 0px 10px 0px;
+    align-items: center;
+
+}
+
+
+.checkbox {
+    text-align: left;
+    font-size: 1rem;
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 0px 0px;
+}
+
+
+.btn {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    margin: 10px 0px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+/*SECTION 3*/
+
+#section3{
+    width: ;
+    height: 100%;  
+    margin: 25px 35px 140px 35px; 
+}
+
+#newslettertitle {
+    width: 50%;
+    height: auto;
+}
+
+#newslettertitle > h2 {
+    width: 75%;
+}
+
+.verticalline {
+  display: none;
+}
+
+
+/*FORMULARIO 2*/
+
+#newslettersignup {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario2 {
+    width: 300px;
+    margin: 25px 35px 25px 35px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#formulario2 > input {
+    width: 100%;
+    background-color: #111010;
+    color: white;
+    border-color: white;
+}
+
+#formulario2 > .btn {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-color: #111010;  
+}
+
+
+/*FOOTER*/
+
+.footerContainer {
+	font-size: 1rem;
+}
+
+    .footerNav ul{
+        flex-direction: column;
+
+    } 
+
+    .footerNav ul li a{
+    font-size: 1rem;
+
+
+}
+
+    .footerNav{
+    	margin: 10px 0;
+}
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 10px;
+        margin: 10px;
+ 
+    }
+
+    .footerBottom {
+    	flex-direction: column;
+
+    }
+
+    .footerBottom p{
+    font-size: 1rem;
+}
+
+
+

@@ -1,0 +1,546 @@
+
+/*Creado por Yasmin El Halouani*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+
+body {
+
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	padding: 20px 0px 20px 0px;
+	font-size: 2.125rem;
+	font-weight: 600;
+
+}
+
+p {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+
+/*NAV*/
+
+/*MENU HAMBURGUESA*/
+
+
+#iconoMenu {
+	width: 60px;
+	display: none;
+	cursor: pointer;
+	color: black;
+	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(51deg) brightness(103%) contrast(101%);
+}
+
+#iconocerrarMenu{
+	width: 35px;
+	height: auto;
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 45px;
+	cursor: pointer;
+	color: black;
+	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(51deg) brightness(103%) contrast(101%);
+}
+
+#menuHamburguesa{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	top: 0;
+	right: -100%;
+	position: fixed;
+	z-index: 1;
+	transition-property: right;
+	transition-duration: 0.5s;
+	padding: 40px 45px 40px 40px;
+}
+
+
+#menuHamburguesa>ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+	justify-content: left;
+/*	align-items: center;*/
+/*	padding-top: 30px;*/
+}
+
+#menuHamburguesa>ul>li{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 30px 0px 0px 0px;
+}
+
+#menuHamburguesa>ul>li>a{
+	text-align: right;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: black;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#menuHamburguesa>ul>li>a:hover {
+	color: #41BEE6;
+}
+
+nav	{
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	position: sticky;
+	top: 0;
+	padding: 25px 140px 25px 140px;
+	font-family: "Inter";
+	z-index: 1;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	margin-left: 40px;
+}
+
+nav a{
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: black;
+	letter-spacing: 0px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+nav ul li a:hover {
+	color: #41BEE6;
+}
+
+#logo{
+	width: 35px;
+	height: auto;
+}
+
+
+
+
+#about {
+	  overflow-x: hidden;
+}
+
+/*SECTION 1*/
+
+#section0 {
+	height: 100vh;
+	margin: 25px 140px 30px 140px;
+/*	background-color: lightcoral;	*/
+}
+
+#section1{
+
+	width: 100%;
+	height: 100vh;	
+	display: flex;
+/*background-color: hotpink;*/
+}
+
+#overlay1{
+	background-color: #111010;
+	z-index: -1;
+	width: 43%;
+	height: 792px;
+	float: right;
+	position: absolute;
+	right: 0rem;
+}
+
+#overlay2{
+	background-color: #111010;
+	z-index: -1;
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: absolute;
+	left: 0rem;
+}
+
+#overlay3{
+	background-color: #111010;
+	z-index: -1;
+	width: 45%;
+	height: 60%;
+	float: center;
+	position: absolute;
+	right: 0rem;
+}
+
+#columna1 {
+	width: 60%;
+	height: 792px;
+	position: relative;
+	overflow: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+ 	scrollbar-width: none;  /* Firefox */
+	margin: 0px 50px 0px 0px;
+
+}
+
+#columna1 > p{
+	font-size: 2.5rem;
+	width: 85%;
+}
+
+
+#columna2 {
+	width: 40%;
+	height: 792px;
+	overflow: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  color: white;
+}
+
+.demopolicy {
+	padding: 0px 0px 0px 0px;
+}
+
+
+.horizontalline1 {
+	border-top: 3px solid white;;
+	margin: 70px 0px 50px 0px;
+    width: 75vh;
+}
+
+.teamcolumn0 {
+	display: flex;
+/*	flex-wrap: wrap;*/
+	flex-direction: column;
+}
+
+
+.teamcolumnas{
+	display: flex;
+} 
+
+.teamcolumn1 {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 40px 0px 0px;
+}
+
+
+.teamcolumn2 {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+/*	margin: 0px 40px 0px 0px;*/
+}
+
+.teamcolumn1 > p{
+/*	line-height: 3;*/
+}
+
+.teamcolumn2 > p {
+	padding: 0px 0px 0px 0px;
+/*	line-height: 3;*/
+}
+
+.textoteam {
+	margin: 0px 0px 20px 0px;
+}
+
+.bold {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.outline {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*SECTION 2*/
+
+#section2{
+	width: 100vw;
+	height: 100vh;	
+	display: flex;	
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;/*
+	background-color: lightskyblue;*/
+	margin: 30px 140px 30px 140px;	
+}
+
+
+#contactus {
+	width: 50%;
+	height: auto;
+	color: white;
+}
+
+
+#contactus > h2 {
+	width: 70%;
+	margin: 0px 0px 20px 0px;
+}
+
+
+#contactus > p {
+	width: 40%;
+}
+
+#contactus > .outline {
+	margin: 0px 0px 20px 0px;
+}
+
+
+/*FORMULARIO*/
+
+#formulariopage {
+	width: 50%;
+}
+
+#formulario {
+	width: 537px;
+/*	margin: 0px 50px 50px 50px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.input {
+	width: 100%;
+	height: auto;
+	margin: 20px 0px 20px 0px;
+	padding: 10px;
+	border: none;
+	border: solid;
+	border-width: 1px;
+	font-size: 1.5rem;
+
+}
+
+#inputwriteus {
+
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin: 20px 0px 5px 0px;
+	padding: 10px 10px 90px 10px;
+}
+
+
+.remember-forgot {
+	width: 100%;
+	height: auto;
+	display: flex;
+  	margin: 10px 0px 10px 0px;
+  	align-items: center;
+
+}
+
+
+.checkbox {
+	text-align: left;
+	font-size: 1.5rem;
+	height: 25px;
+  	width: 25px;
+  	margin: 0px 10px 0px 0px;
+}
+
+
+.btn {
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	margin: 10px 0px;
+	cursor: pointer;
+	border: solid;
+	border-color: #111010;
+	border-width: 1px;
+	background-color: #111010;
+	color: white;
+	transition: 0.5s;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #111010;
+}
+
+/*SECTION 3*/
+
+#section3{
+/*	width: 100vw;*/
+	height: 100vh;	
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	background-color: ;
+	margin: 30px 140px 30px 140px;	
+}
+
+#newslettertitle {
+	width: 50%;
+	height: auto;
+}
+
+#newslettertitle > h2 {
+	width: 75%;
+}
+
+.verticalline {
+  border-left: 3px solid black;
+  height: 90vh;
+}
+
+
+/*FORMULARIO 2*/
+
+#newslettersignup {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+#formulario2 {
+	width: 537px;
+	margin: 50px 50px 50px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+#formulario2 > input {
+	width: 100%;
+	background-color: #111010;
+	color: white;
+	border-color: white;
+}
+
+#formulario2 > .btn {
+	width: 100%;
+	background-color: white;
+	color: black;
+	border-color: #111010;	
+}
+
+#formulario2 > .btn:hover {
+	background-color: #111010;
+	color: white;
+	border-color: white;
+}
+
+
+/*FOOTER*/
+
+
+footer {
+    background-color: #111010;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.logofooter {
+	display: flex;
+	justify-content: center;
+}
+
+.logofooter img {
+	width: 6%;
+	height: auto;
+	transition: 0.5s;
+	filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(51deg) brightness(103%) contrast(101%);
+}
+
+.logofooter img:hover {
+	filter: invert(61%) sepia(97%) saturate(464%) hue-rotate(161deg) brightness(97%) contrast(85%);
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 0px 30px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: white;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: #41BEE6;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+   color: #41BEE6;
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerBottom p{
+    color: white;
+}
